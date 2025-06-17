@@ -1,0 +1,84 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 2420px;
+  height: 1764px;
+  left: -605px;
+}
+
+.desktop .scene {
+  position: absolute;
+  width: 1440px;
+  height: 767px;
+  top: 0;
+  left: 605px;
+  object-fit: cover;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 2420px;
+  height: 1310px;
+  top: 454px;
+  left: 0;
+  border-radius: 1210px/655px;
+  filter: blur(100px);
+  background: linear-gradient(180deg, rgba(77, 19, 34, 1) 0%, rgba(23, 11, 32, 1) 31%, rgba(24, 2, 25, 1) 42%);
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 663px;
+  top: 397px;
+  left: 988px;
+  -webkit-text-stroke: 5px #4d1321;
+  font-family: "Anjay-Regular", Helvetica;
+  font-weight: 400;
+  color: #86440a;
+  font-size: 140px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 663px;
+  top: 390px;
+  left: 988px;
+  text-shadow: 0px 10px 4px #00000040;
+  -webkit-text-stroke: 5px #4d1321;
+  font-family: "Anjay-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7eee4;
+  font-size: 140px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 539px;
+  left: 1083px;
+  font-family: "Aoboshi One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
