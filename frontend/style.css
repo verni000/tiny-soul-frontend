@@ -55,21 +55,6 @@
   white-space: nowrap;
 }
 
-.desktop .div {
-  position: absolute;
-  width: 663px;
-  top: 390px;
-  left: 988px;
-  text-shadow: 0px 10px 4px #00000040;
-  -webkit-text-stroke: 5px #4d1321;
-  font-family: "Anjay-Regular", Helvetica;
-  font-weight: 400;
-  color: #f7eee4;
-  font-size: 140px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
 
 .desktop .p {
   position: absolute;
@@ -81,4 +66,114 @@
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+@font-face {
+  font-family: 'Anjay';
+  src: url('images/Anjay-Regular.ttf') format('truetype');
+}
+
+.overlay-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* opsional: supaya gak ganggu klik elemen lain */
+   z-index: 10; /* <--- tambahkan ini */
+}
+
+.anjay-font {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Anjay', sans-serif;
+  text-shadow: 0px 10px 4px #00000040;
+  -webkit-text-stroke: 5px #4d1321;
+  font-weight: 400;
+  color: #f7eee4;
+  font-size: 200px;
+  white-space: nowrap;
+}
+
+.desktop2 {
+  background-color: #180219;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop2 .div2 {
+  background-color: #180219;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop2 .ellipse2 {
+  position: absolute;
+  width: 2345px;
+  height: 2254px;
+  top: 645px;
+  left: -218px;
+  background-color: #4d1321;
+  border-radius: 1172.5px/1127px;
+  filter: blur(250px);
+}
+
+.desktop2 .deskripsi {
+  position: absolute;
+  width: 845px;
+  top: 109px;
+  left: 110px;
+  font-family: 'Anjay';
+  src: url('images/Anjay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  color: #fff5ef;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #180219;
+  overflow: hidden;
+}
+
+.desktop3 .ellipse-wrapper3 {
+  background-color: #180219;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop3 .ellipse3 {
+  position: absolute;
+  width: 2345px;
+  height: 2254px;
+  top: -545px;
+  left: -218px;
+  background-color: #4d1321;
+  border-radius: 1172.5px / 1127px;
+  filter: blur(250px);
+}
+
+.game-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.game-slide iframe {
+  border: none;
+  width: 960px;
+  height: 540px;
 }
